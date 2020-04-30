@@ -1,5 +1,5 @@
 class EditColumn < ActiveRecord::Migration
   def change
-    rename_column :users, :old_column, :new_column
+    rename_column :users, :password_digest, :password
   end
 end
